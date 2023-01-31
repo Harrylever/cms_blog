@@ -6,17 +6,33 @@
     "start": "next start"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
+    "html-react-parser": "^3.0.8",
+    "moment": "^2.29.4",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.2",
+    "sass": "^1.57.1"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
     "autoprefixer": "^10.4.12",
+    "eslint": "^8.32.0",
+    "eslint-config-standard-with-typescript": "^32.0.0",
+    "eslint-config-xo": "^0.43.1",
+    "eslint-config-xo-typescript": "^0.55.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.4",
-    "typescript": "4.9.4"
+    "typescript": "^4.9.4"
   }
 }
