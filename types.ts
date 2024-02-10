@@ -3,7 +3,7 @@ export type CommentObj = {
 	email: string;
 	comment: string;
 	slug: string;
-	createdAt: string;
+	createdAt?: string;
 };
 
 export type Category = {
